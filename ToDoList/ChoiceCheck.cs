@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,18 +17,20 @@ namespace ToDoList
         }
         public static string CheckCorrectChoice(string choice, int start, int end)
         {
+            ColorConsole color = new ColorConsole();
             while (!CheckBelong(choice, start, end))
             {
-                Console.WriteLine("Некорректный выбор действия!\nПопробуйте снова");  
+                Console.WriteLine($"{color.YELLOW}Некорректный выбор действия!\nПопробуйте снова{color.NORMAL}");
                 choice = Console.ReadLine();
             }
             return choice;
         }
         public static string CheckNullField(string field)
         {
+            ColorConsole color = new ColorConsole();
             while (string.IsNullOrEmpty(field) || string.IsNullOrWhiteSpace(field))
             {
-                Console.WriteLine("Некорректное содержание!\nПопробуйте снова");
+                Console.WriteLine($"{color.YELLOW}Некорректное содержание!\nПопробуйте снова{color.NORMAL}");
                 field = Console.ReadLine();
             }
             return field;

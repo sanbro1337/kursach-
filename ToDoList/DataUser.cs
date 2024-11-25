@@ -38,11 +38,11 @@ namespace ToDoList
             var usernull = new User();
             return usernull;
         }
-        public static void ReadFileUsers(string UserFile)
+        public static void ReadFileUsers()
         {
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             string projectDir = Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.Parent.FullName;
-            string path = Path.Combine(projectDir, UserFile);
+            string path = Path.Combine(projectDir, @"DataUser.csv");
             using (StreamReader UserList = new StreamReader(path, Encoding.GetEncoding(1251)))
             {
                 string UserInformation;
@@ -81,6 +81,26 @@ namespace ToDoList
                 Console.WriteLine($"Ошибка при записи файла: {ex.Message}");
             }
         }
-
+        public void GetName(int id)
+        {
+            foreach (var user in Users)
+            {
+                if (user.id == id)
+                {
+                    Console.WriteLine(user.name);
+                }
+            }
+        }
+        public static void GetNoteUser(int id)
+        {
+            foreach (var user in Users)
+            {
+                if (user.id == id)
+                {
+                    Console.WriteLine($"Задачи пользователя: {user.name}\n");
+                    user.ShowNotes();
+                }
+            }
+        }
     }
 }
