@@ -24,6 +24,7 @@ namespace ToDoList
             this.password = password;
             DataUser.AddUser(this);
         }
+        //Конструктор для загрузки пользователей из файла
         public User(int id, string name, string login, string password)
         {
             this.id = id;
