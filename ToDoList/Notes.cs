@@ -16,11 +16,12 @@ namespace ToDoList
         public bool status;
         public string nameUser;
         public int deadline;
-        public int userId;
+        public int userId; // Чья задача
+        public int userCustomerId;// Кто назначил
         public DateTime dateCreate;
         
         // конструктор для инициализации новых заметок
-        public Notes(string nameNotes, StringBuilder textNotes, string nameUser, int deadline, int userId)
+        public Notes(string nameNotes, StringBuilder textNotes, string nameUser, int deadline, int userId, int userCustomerId)
         {
             idNote = ++counter;
             this.nameNotes = nameNotes;
@@ -30,19 +31,22 @@ namespace ToDoList
             status = false;
             this.userId = userId;
             this.dateCreate = DateTime.Now;
+            this.userCustomerId = userCustomerId;
         }
         // конструктор для загрузки заметок из файла
-        public Notes(int idNote, string nameNotes, StringBuilder textNotes, string nameUser, int deadline, int userId, DateTime dateCreate)
+        public Notes(int idNote, string nameNotes, StringBuilder textNotes, string nameUser, int deadline, int userId, DateTime dateCreate, bool status, int userCustomerId)
         {
             counter = idNote; 
             this.idNote = idNote;
             this.nameNotes = nameNotes;
             this.textNotes = textNotes;
             this.nameUser = nameUser;
-            status = false;
+            this.status = status;
             this.userId = userId;
-            this.deadline = deadline - (int)((DateTime.Now - dateCreate).TotalDays);
+            this.deadline = deadline;
+            //this.deadline = deadline - (int)((DateTime.Now - dateCreate).TotalDays);
             this.dateCreate = dateCreate;
+            this.userCustomerId = userCustomerId;
         }
         public void ShowNote() 
         {
@@ -50,15 +54,22 @@ namespace ToDoList
             Console.WriteLine("------------------------------------------------------------------------------------------");
             Console.WriteLine($"Id задачи: {idNote}\nНазвание задачи: {nameNotes}\nСодержание задачи:\n");
             Gui.PrintTextNote(textNotes);
-            if (deadline > 0)
+            if (status) 
             {
-                Console.WriteLine($"Осталось дней: {deadline}");
+                Console.WriteLine($"Статус: {color.GREEN} задача выполнена  {color.NORMAL}");
             }
             else
             {
-                Console.WriteLine($"Осталось дней: {color.RED} {deadline} {color.NORMAL}");
+                if (deadline - (int)((DateTime.Now - dateCreate).TotalDays) > 0)
+                {
+                    Console.WriteLine($"Осталось дней: {deadline - (int)((DateTime.Now - dateCreate).TotalDays)}");
+                }
+                else
+                {
+                    Console.WriteLine($"Осталось дней: {color.RED} {deadline - (int)((DateTime.Now - dateCreate).TotalDays)} {color.NORMAL}");
+                }
             }
-            Console.WriteLine($"Кто назначил: {nameUser}\n");
+            Console.WriteLine($"Кто назначил: Id - {userCustomerId} Ник - {DataUser.GetName(userCustomerId)}\n");
             Console.WriteLine("------------------------------------------------------------------------------------------");
         }
         

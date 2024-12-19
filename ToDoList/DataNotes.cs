@@ -27,7 +27,26 @@ namespace ToDoList
             }
             Console.WriteLine("Введите дедлайн");
             int deadline = int.Parse(ChoiceCheck.CheckNullField(Console.ReadLine()));
-            Notes newNote = new Notes(name, textNotes, person.name, deadline, person.id);
+            Notes newNote = new Notes(name, textNotes, person.name, deadline, person.id, person.id);
+            ListNotes.Add(newNote);
+        }
+        public static void AddOtherUserNotes(int UserId, int IdCustomer)
+        {
+            Console.WriteLine("Создание новой задачи");
+            Console.WriteLine("Добавьте название");
+            string name = Console.ReadLine();
+            ChoiceCheck.CheckNullField(name);
+            Console.WriteLine("Введите задачу");
+            StringBuilder textNotes = new StringBuilder();
+            string line = Console.ReadLine();
+            while (line != @"\!")
+            {
+                textNotes.AppendLine(line);
+                line = Console.ReadLine();
+            }
+            Console.WriteLine("Введите дедлайн");
+            int deadline = int.Parse(ChoiceCheck.CheckNullField(Console.ReadLine()));
+            Notes newNote = new Notes(name, textNotes, DataUser.GetName(UserId), deadline, UserId, IdCustomer);
             ListNotes.Add(newNote);
         }
         public static void AddGeneralNotes(User person)
@@ -46,7 +65,7 @@ namespace ToDoList
             }
             Console.WriteLine("Введите дедлайн");
             int deadline = int.Parse(ChoiceCheck.CheckNullField(Console.ReadLine()));
-            Notes newNote = new Notes(name, textNotes, person.name, deadline, 0);
+            Notes newNote = new Notes(name, textNotes, "Общая задача", deadline, 0, person.id);
             ListNotes.Add(newNote);
         }
         public static void ReadNotes()
@@ -57,7 +76,7 @@ namespace ToDoList
             using (StreamReader NotesList = new StreamReader(path, Encoding.GetEncoding(1251)))
             {
                 string NotesInformation;
-                while ((NotesInformation = NotesList.ReadLine()) != null)
+             while ((NotesInformation = NotesList.ReadLine()) != null)
                 {
                     string[] lines = NotesInformation.Split(";");
                     int idNote = int.Parse(lines[0]);
@@ -71,12 +90,13 @@ namespace ToDoList
                     int deadline = int.Parse(lines[4]);
                     StringBuilder textNote = new StringBuilder();
                     int userId = int.Parse(lines[5]);
-                    DateTime dateCreate = new DateTime(int.Parse(lines[8]), int.Parse(lines[7]), int.Parse(lines[6]));
-                    for (int i = 9; i < lines.Length; i++)
+                    int IdCustomer = int.Parse(lines[6]);
+                    DateTime dateCreate = new DateTime(int.Parse(lines[9]), int.Parse(lines[8]), int.Parse(lines[7]));
+                    for (int i = 10; i < lines.Length; i++)
                     {
                         textNote.AppendLine(lines[i]);
                     }
-                    Notes newNote = new Notes(idNote, nameNotes, textNote, nameUser, deadline, userId, dateCreate);
+                    Notes newNote = new Notes(idNote, nameNotes, textNote, nameUser, deadline, userId, dateCreate, status, IdCustomer);
                     ListNotes.Add(newNote);
                 }
             }
@@ -98,7 +118,7 @@ namespace ToDoList
                     }
                 }
                 string[] dateCreate = note.dateCreate.ToString("d").Split(".");
-                string[] newLine = { note.idNote.ToString(), note.nameNotes, note.status.ToString(), note.nameUser, note.deadline.ToString(), note.userId.ToString(), 
+                string[] newLine = { note.idNote.ToString(), note.nameNotes, note.status.ToString(), note.nameUser, note.deadline.ToString(), note.userId.ToString(), note.userCustomerId.ToString(),
                     dateCreate[0], dateCreate[1], dateCreate[2], textNote };
                 string line = string.Join(separator, newLine);
                 fullData.AppendLine(line);
@@ -218,6 +238,18 @@ namespace ToDoList
                 if (note.idNote == idNote)
                 {
                     ListNotes.Remove(note);
+                }
+            }
+            Console.WriteLine($"{color.YELLOW}Задачи с таким id не существует!!!{color.NORMAL}");
+        }
+        public static void CompletedNote(int idNote)
+        {
+            ColorConsole color = new ColorConsole();
+            foreach (var note in ListNotes)
+            {
+                if (note.idNote == idNote)
+                {
+                    note.status = true;
                 }
             }
             Console.WriteLine($"{color.YELLOW}Задачи с таким id не существует!!!{color.NORMAL}");

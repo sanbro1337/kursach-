@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -46,7 +47,7 @@ namespace ToDoList
             using (StreamReader UserList = new StreamReader(path, Encoding.GetEncoding(1251)))
             {
                 string UserInformation;
-                while((UserInformation = UserList.ReadLine()) != null)
+                while ((UserInformation = UserList.ReadLine()) != null)
                 {
                     string[] lines = UserInformation.Split(";");
                     int id = int.Parse(lines[0]);
@@ -81,15 +82,16 @@ namespace ToDoList
                 Console.WriteLine($"Ошибка при записи файла: {ex.Message}");
             }
         }
-        public void GetName(int id)
+        public static string GetName(int id)
         {
             foreach (var user in Users)
             {
                 if (user.id == id)
                 {
-                    Console.WriteLine(user.name);
+                    return user.name;
                 }
             }
+            return "Ошибка";
         }
         public static void GetNoteUser(int id)
         {
@@ -101,6 +103,19 @@ namespace ToDoList
                     user.ShowNotes();
                 }
             }
+        }
+        public static bool CheckAvailabilityUser(int id)
+        {
+            ColorConsole color = new ColorConsole();
+            foreach (var user in Users)
+            {
+                if (user.id == id)
+                {
+                    return true;
+                }
+            }
+            Console.WriteLine($"{color.YELLOW}Пользователя с таким id не существует!!!{color.NORMAL}");
+            return false;
         }
     }
 }
