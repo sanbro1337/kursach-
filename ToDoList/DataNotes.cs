@@ -17,7 +17,7 @@ namespace ToDoList
             Console.WriteLine("Добавьте название");
             string name = Console.ReadLine();
             ChoiceCheck.CheckNullField(name);
-            Console.WriteLine("Введите задачу");
+            Console.WriteLine(@"Введите задачу (чтобы завершить в новой строке введите комбинацию \!)");
             StringBuilder textNotes = new StringBuilder();
             string line = Console.ReadLine();
             while (line != @"\!")
@@ -213,18 +213,12 @@ namespace ToDoList
                     Console.WriteLine($"Текущее дедлайн: {note.deadline}");
                     Console.WriteLine("Введите новое или оставьте поле пустым(дедлайн не изменится)");
                     string newdeadline = Console.ReadLine();
-                    if( newdeadline != null )
+                    if( newdeadline != "" )
                     {
                         note.deadline = int.Parse( newdeadline );
                         note.dateCreate = DateTime.Now;
                     }
                     return true;
-                }
-                else
-                {
-                    Console.Clear();
-                    Console.WriteLine($"{color.YELLOW}Задачи с таким id не найдено попробуйте снова{color.NORMAL}");
-                    return false;
                 }
             }
             return false;
@@ -238,6 +232,7 @@ namespace ToDoList
                 if (note.idNote == idNote)
                 {
                     ListNotes.Remove(note);
+                    break;
                 }
             }
             Console.WriteLine($"{color.YELLOW}Задачи с таким id не существует!!!{color.NORMAL}");
