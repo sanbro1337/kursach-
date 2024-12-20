@@ -1,53 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\",
+  "WorkspaceRootPath": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\alexsander\\desktop\\study\\kursach\\todolist\\datanotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\datanotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\alexsander\\desktop\\study\\kursach\\todolist\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\alexsander\\desktop\\study\\kursach\\todolist\\notes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\minul\\source\\repos\\kursach\\kursach\\todolist\\notes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\notes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\alexsander\\desktop\\study\\kursach\\todolist\\datauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\minul\\source\\repos\\kursach\\kursach\\todolist\\datanotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\datanotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\minul\\source\\repos\\kursach\\kursach\\todolist\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\minul\\source\\repos\\kursach\\kursach\\todolist\\datauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\datauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\alexsander\\desktop\\study\\kursach\\todolist\\datanotes.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\minul\\source\\repos\\kursach\\kursach\\todolist\\datanotes.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\datanotes.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\alexsander\\desktop\\study\\kursach\\todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\minul\\source\\repos\\kursach\\kursach\\todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\alexsander\\desktop\\study\\kursach\\todolist\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\minul\\source\\repos\\kursach\\kursach\\todolist\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\alexsander\\desktop\\study\\kursach\\todolist\\initialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\minul\\source\\repos\\kursach\\kursach\\todolist\\initialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\initialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\alexsander\\desktop\\study\\kursach\\todolist\\gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\minul\\source\\repos\\kursach\\kursach\\todolist\\gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\alexsander\\desktop\\study\\kursach\\todolist\\colorconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\minul\\source\\repos\\kursach\\kursach\\todolist\\colorconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\colorconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\alexsander\\desktop\\study\\kursach\\todolist\\choicecheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\minul\\source\\repos\\kursach\\kursach\\todolist\\choicecheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\choicecheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\alexsander\\desktop\\study\\kursach\\todolist\\datauser.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|c:\\users\\minul\\source\\repos\\kursach\\kursach\\todolist\\datauser.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{9850B12C-9493-44E9-A304-B35C8D1167AF}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\datauser.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -58,69 +58,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Gui.cs",
-              "DocumentMoniker": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\Gui.cs",
+              "DocumentMoniker": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\Gui.cs",
               "RelativeDocumentMoniker": "ToDoList\\Gui.cs",
-              "ToolTip": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\Gui.cs",
+              "ToolTip": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\Gui.cs",
               "RelativeToolTip": "ToDoList\\Gui.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T16:59:33.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T16:59:33.463Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Initialization.cs",
-              "DocumentMoniker": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\Initialization.cs",
+              "DocumentMoniker": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\Initialization.cs",
               "RelativeDocumentMoniker": "ToDoList\\Initialization.cs",
-              "ToolTip": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\Initialization.cs",
+              "ToolTip": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\Initialization.cs",
               "RelativeToolTip": "ToDoList\\Initialization.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAYwEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T15:56:14.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T15:56:14.54Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\User.cs",
+              "DocumentMoniker": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\User.cs",
               "RelativeDocumentMoniker": "ToDoList\\User.cs",
-              "ToolTip": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\User.cs",
+              "ToolTip": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\User.cs",
               "RelativeToolTip": "ToDoList\\User.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAA8wDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T12:40:17.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T12:40:17.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DataNotes.cs",
-              "DocumentMoniker": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\DataNotes.cs",
+              "DocumentMoniker": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\DataNotes.cs",
               "RelativeDocumentMoniker": "ToDoList\\DataNotes.cs",
-              "ToolTip": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\DataNotes.cs",
+              "ToolTip": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\DataNotes.cs",
               "RelativeToolTip": "ToDoList\\DataNotes.cs",
-              "ViewState": "AgIAALcAAAAAAAAAAAAswMMAAABNAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T16:39:38.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Notes.cs",
-              "DocumentMoniker": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\Notes.cs",
+              "DocumentMoniker": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\Notes.cs",
               "RelativeDocumentMoniker": "ToDoList\\Notes.cs",
-              "ToolTip": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\Notes.cs",
+              "ToolTip": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\Notes.cs",
               "RelativeToolTip": "ToDoList\\Notes.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAYwDIAAAAfAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T12:37:46.204Z",
               "EditorCaption": ""
@@ -129,9 +126,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "DataUser.csv",
-              "DocumentMoniker": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\DataUser.csv",
+              "DocumentMoniker": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\DataUser.csv",
               "RelativeDocumentMoniker": "ToDoList\\DataUser.csv",
-              "ToolTip": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\DataUser.csv",
+              "ToolTip": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\DataUser.csv",
               "RelativeToolTip": "ToDoList\\DataUser.csv",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
@@ -139,81 +136,75 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\Main.cs",
+              "DocumentMoniker": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\Main.cs",
               "RelativeDocumentMoniker": "ToDoList\\Main.cs",
-              "ToolTip": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\Main.cs",
+              "ToolTip": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\Main.cs",
               "RelativeToolTip": "ToDoList\\Main.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAswFcAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T12:41:49.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T12:41:49.597Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "DataNotes.csv",
-              "DocumentMoniker": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\DataNotes.csv",
+              "DocumentMoniker": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\DataNotes.csv",
               "RelativeDocumentMoniker": "ToDoList\\DataNotes.csv",
-              "ToolTip": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\DataNotes.csv",
+              "ToolTip": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\DataNotes.csv",
               "RelativeToolTip": "ToDoList\\DataNotes.csv",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2024-11-15T05:48:39.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T05:48:39.336Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "DataUser.cs",
-              "DocumentMoniker": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\DataUser.cs",
+              "DocumentMoniker": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\DataUser.cs",
               "RelativeDocumentMoniker": "ToDoList\\DataUser.cs",
-              "ToolTip": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\DataUser.cs",
+              "ToolTip": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\DataUser.cs",
               "RelativeToolTip": "ToDoList\\DataUser.cs",
               "ViewState": "AgIAAFUAAAAAAAAAAAAAwHkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T13:12:41.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T13:12:41.422Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "ColorConsole.cs",
-              "DocumentMoniker": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\ColorConsole.cs",
+              "DocumentMoniker": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\ColorConsole.cs",
               "RelativeDocumentMoniker": "ToDoList\\ColorConsole.cs",
-              "ToolTip": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\ColorConsole.cs",
+              "ToolTip": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\ColorConsole.cs",
               "RelativeToolTip": "ToDoList\\ColorConsole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T15:48:42.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T15:48:42.412Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "ChoiceCheck.cs",
-              "DocumentMoniker": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\ChoiceCheck.cs",
+              "DocumentMoniker": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\ChoiceCheck.cs",
               "RelativeDocumentMoniker": "ToDoList\\ChoiceCheck.cs",
-              "ToolTip": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\ChoiceCheck.cs",
+              "ToolTip": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\ChoiceCheck.cs",
               "RelativeToolTip": "ToDoList\\ChoiceCheck.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAmwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T12:46:26.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T12:46:26.021Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\Program.cs",
               "RelativeDocumentMoniker": "ToDoList\\Program.cs",
-              "ToolTip": "C:\\Users\\Alexsander\\Desktop\\study\\kursach\\ToDoList\\Program.cs",
+              "ToolTip": "C:\\Users\\minul\\source\\repos\\kursach\\kursach\\ToDoList\\Program.cs",
               "RelativeToolTip": "ToDoList\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T12:35:10.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T12:35:10.04Z"
             }
           ]
         }
