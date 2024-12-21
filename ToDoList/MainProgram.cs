@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ToDoList
 {
-    public class MainProgramm
+    public class MainProgram
     {
-        public static void InMainProgramm()
+        public static void InMainProgram()
         {
             User person = new User();
             DataUser.ReadFileUsers();

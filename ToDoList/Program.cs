@@ -10,7 +10,7 @@ namespace ToDoList
     {
         static void Main(string[] args)
         {
-            MainProgramm.InMainProgramm();
+            MainProgram.InMainProgram();
         }
     }
 }

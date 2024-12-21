@@ -8,7 +8,7 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace ToDoList
 {
-    internal class DataNotes
+    public class DataNotes
     {
         public static List<Notes> ListNotes = new();
         public static void AddNotes(User person)
